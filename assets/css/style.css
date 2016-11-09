@@ -9,6 +9,7 @@
 	h1,h2,h3,h4,h5,h6 {
 		font-family: "PT Sans Caption";
 		font-weight: bold;
+		margin-top: 1.6em;
 	}
 
 /* All links get this treatment */
@@ -172,7 +173,7 @@
 			display:inline-block;
 	}
 	#loop article section.excerpt{
-		line-height:1.6;
+		line-height:1.4;
 		font-size:1em;
 	}
 	#loop article section.excerpt .readmore{
@@ -227,8 +228,7 @@
 		border-bottom:1px solid rgba(0, 0, 0, 0.5);
 	}
 	#post section.body{
-		line-height:1.6;
-		text-indent:6px;
+		line-height:1.4;
 	}
 	#post section.body img{max-height:600px;width:auto;}
 	#post section.body h1{font-size:2.44em;}

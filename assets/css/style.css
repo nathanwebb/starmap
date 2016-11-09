@@ -1,7 +1,11 @@
 	body{
 		background:#efefef;
 		color:#3A3A3A;
-		font-family:'Didactic',Serif;
+		font-family:'Merriweather',Serif;
+	}
+	h1,h2,h3,h4,h5,h6 {
+		font-family: "PT Sans Caption";
+		font-weight: bold;
 	}
 
 /* All links get this treatment */
@@ -17,9 +21,9 @@
 	  background-position: left 1.05em;
 	  position: absolute;
 	  top: 0;
-	  left: 0;
+	  left: -1px;
 	  bottom: 0;
-	  right: 0;
+	  right: -1px;
 	  z-index: -1;
 	  content: "";
 	  opacity: 0.4;
@@ -186,7 +190,7 @@
 		border-bottom:1px solid rgba(0, 0, 0, 0.5);
 	}
 	#tag header.wrapper h1{
-		font-size:4em;
+		font-size:3em;
 	}
 	#tag header.wrapper h3{
 		color:rgba(0, 0, 0, 0.2);
@@ -209,7 +213,7 @@
 		display:inline-block;
 	}
 	#post header h1{
-		font-size:6.1em;
+		font-size:3em;
 		text-align:center;
 	}
 	#post header hr{
@@ -224,12 +228,12 @@
 		text-indent:6px;
 	}
 	#post section.body img{max-height:600px;width:auto;}
-	#post section.body h1{font-size:4em;}
-	#post section.body h2{font-size:3.7em;}
-	#post section.body h3{font-size:3.4em;}
-	#post section.body h4{font-size:2.7em;}
-	#post section.body h5{font-size:2.4em;}
-	#post section.body h6{font-size:1.7em;}
+	#post section.body h1{font-size:2.44em;}
+	#post section.body h2{font-size:1.95em;}
+	#post section.body h3{font-size:1.56em;}
+	#post section.body h4{font-size:1.25em;}
+	#post section.body h5{font-size:1em;}
+	#post section.body h6{font-size:0.8em;}
 	#post section.body p{margin:10px 0;}
 	#post section.body b{font-style:bold;}
 	#post section.body u{text-decoration:underline;}
@@ -284,7 +288,7 @@
 		text-align:center;
 	}
 	#author header.wrapper h1{
-		font-size:4em;
+		font-size:3em;
 	}
 	#author header.wrapper h3{
 		color:rgba(0, 0, 0, 0.2);

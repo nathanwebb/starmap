@@ -24,6 +24,9 @@
 	  content: "";
 	  opacity: 0.4;
 	}
+	#site-nav a:after {
+		content: none;
+	}
 	a:visited {
 	  color: #5e788d;
 	}

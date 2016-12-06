@@ -248,6 +248,7 @@
 	#post section.body i{font-style:italic;}
 	#post section.body ul{list-style:square;}
 	#post section.body ol{list-style:lower-alpha;}
+	#post section.body strong{font-weight: bold;}
 	#post footer{
 		padding:15px 0;
 		box-sizing:border-box;
